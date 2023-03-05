@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCityEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CityEvent>
+		<Header>Турниры по игре в нарды!</Header>
+		<Description>Для настоящих нордов!</Description>
+		<Image>Assets/News/nards.jpg</Image>
+		<Date>05.03.2023</Date>
+		<Category>
+			<Categories>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+			</Categories>
+			<ForChildren>true</ForChildren>
+			<Sport>true</Sport>
+			<Culture>true</Culture>
+			<Excursions>false</Excursions>
+			<Lifestyle>true</Lifestyle>
+			<Party>true</Party>
+			<Education>false</Education>
+			<Online>false</Online>
+			<Show>true</Show>
+		</Category>
+		<Price>500</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>Выставка уличных кошек</Header>
+		<Description>Действительно уличных!</Description>
+		<Image>Assets/News/cats.jpg</Image>
+		<Date>06.03.2023</Date>
+		<Category>
+			<Categories>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+			</Categories>
+			<ForChildren>true</ForChildren>
+			<Sport>true</Sport>
+			<Culture>true</Culture>
+			<Excursions>true</Excursions>
+			<Lifestyle>true</Lifestyle>
+			<Party>true</Party>
+			<Education>true</Education>
+			<Online>true</Online>
+			<Show>true</Show>
+		</Category>
+		<Price>500</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>Выставка домашних кошек</Header>
+		<Description>Они все точно не с улицы</Description>
+		<Image>Assets/News/cat.webp</Image>
+		<Date>07.03.2023</Date>
+		<Category>
+			<Categories>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+				<boolean>true</boolean>
+			</Categories>
+			<ForChildren>false</ForChildren>
+			<Sport>true</Sport>
+			<Culture>false</Culture>
+			<Excursions>false</Excursions>
+			<Lifestyle>true</Lifestyle>
+			<Party>false</Party>
+			<Education>false</Education>
+			<Online>false</Online>
+			<Show>false</Show>
+		</Category>
+		<Price>500</Price>
+	</CityEvent>
+
+</ArrayOfCityEvent>
+
+
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+
+    
+        
+    
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+
+    
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+    
+    
+        
+        
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+        
+    
+        
+        
+        

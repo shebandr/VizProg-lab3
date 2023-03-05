@@ -1,0 +1,42 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:CityEvents.ViewModels"
+             xmlns:models="clr-namespace:CityEvents.Models"
+             xmlns:local="clr-namespace:CityEvents.Views"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             x:Class="CityEvents.Views.CategoryControl">
+    <UserControl.Resources>
+        <vm:BitmapAssetValueConverter x:Key="VariableImage"/>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <vm:MainWindowViewModel/>
+    </UserControl.DataContext>
+	
+    <ScrollViewer>
+        <ItemsControl Items="{Binding Path=Events, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type local:CategoryControl}}}" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate DataType="{x:Type models:CityEvent}">
+					<Border Padding="1">
+                    <Grid Margin="20" RowDefinitions="0.5*,0.5*">
+                        <Image Height="300" Width="300" Source="{Binding Image, Converter={StaticResource VariableImage}}"/>
+                        <StackPanel Grid.Row="1">
+                            <TextBlock  Margin="10"  TextAlignment="Center" FontWeight="Bold" Text="{Binding Header}" />
+							<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}" />
+							<TextBlock Margin="10" TextAlignment="Center" Text="{Binding Description}" />
+                            <TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}" />
+                            
+                        </StackPanel>
+                    </Grid>
+						</Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+    </ScrollViewer>
+</UserControl>
