@@ -1,4 +1,3 @@
-using System;
 using DynamicData.Binding;
 
 namespace CityEvents.Models;
@@ -37,7 +36,7 @@ public class CityEvent : AbstractNotifyPropertyChanged
         _CategoryValue = null!;
         _PriceValue = 0;
     }
-    
+
     public string Header
     {
         get => _HeaderValue;
@@ -47,7 +46,8 @@ public class CityEvent : AbstractNotifyPropertyChanged
     public string Description
     {
         get => _DescriptionValue;
-        set {
+        set
+        {
             SetAndRaise(ref _DescriptionValue, CheckStringLenght(value));
         }
     }

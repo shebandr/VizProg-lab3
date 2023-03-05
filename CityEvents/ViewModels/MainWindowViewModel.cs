@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.Reactive.Linq;
-using CityEvents.Models;
+﻿using CityEvents.Models;
 using DynamicData;
 using ReactiveUI;
+using System;
+using System.Collections.ObjectModel;
+using System.Reactive.Linq;
 
 namespace CityEvents.ViewModels
 {
