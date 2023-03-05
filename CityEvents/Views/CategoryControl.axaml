@@ -22,10 +22,10 @@
                     <Grid Margin="20" RowDefinitions="0.5*,0.5*">
                         <Image Height="300" Width="300" Source="{Binding Image, Converter={StaticResource VariableImage}}"/>
                         <StackPanel Grid.Row="1">
-                            <TextBlock  Margin="10"  TextAlignment="Center" FontWeight="Bold" Text="{Binding Header}" />
-							<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}" />
-							<TextBlock Margin="10" TextAlignment="Center" Text="{Binding Description}" />
-                            <TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}" />
+                            <TextBlock  Margin="10" FontSize="30" TextAlignment="Center" FontWeight="Bold" Text="{Binding Header}" />
+							<TextBlock TextAlignment="Center" FontSize="20" FontWeight="Bold" Text="{Binding Date}" />
+							<TextBlock Margin="10" FontSize="20" TextAlignment="Center" Text="{Binding Description}" />
+                            <TextBlock TextAlignment="Center" FontSize="20" FontWeight="Bold" Text="{Binding Price}" />
                             
                         </StackPanel>
                     </Grid>

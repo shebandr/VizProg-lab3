@@ -28,7 +28,7 @@
 			<Online>false</Online>
 			<Show>true</Show>
 		</Category>
-		<Price>500</Price>
+		<Price>0</Price>
 	</CityEvent>
 	<CityEvent>
 		<Header>Выставка уличных кошек</Header>
@@ -86,7 +86,7 @@
 			<Online>false</Online>
 			<Show>false</Show>
 		</Category>
-		<Price>500</Price>
+		<Price>5000</Price>
 	</CityEvent>
 
 </ArrayOfCityEvent>
